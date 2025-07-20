@@ -7,6 +7,7 @@ import org.springframework.stereotype.Service;
 public interface DepartmentService {
 
     DepartmentDto saveDepartment(DepartmentDto departmentDto);
+    DepartmentDto getDepartmentByCode(String departmentCode);
 
 
 }
